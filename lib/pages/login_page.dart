@@ -1,4 +1,6 @@
+import 'package:complaint_management_system/pages/all_complaints_page.dart';
 import 'package:complaint_management_system/pages/file_form_complaint.dart';
+import 'package:complaint_management_system/pages/home_screen.dart';
 import 'package:complaint_management_system/widgets/text_form_field.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -67,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => FileFormComplaint()));
+                              builder: (context) => HomeScreen()));
                     },
                     child: Text(
                       "Login",
